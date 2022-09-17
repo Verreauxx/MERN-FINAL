@@ -58,10 +58,10 @@ export default function EditNote({match}) {
 
     return (
         <div className="create-note">
-            <h2>Edit Recipe</h2>
+            <h2>Edit Note</h2>
             <form onSubmit={editNote} autoComplete="off">
                 <div className="row">
-                    <label htmlFor="title">Recipe</label>
+                    <label htmlFor="title">Quick Note</label>
                     <input type="text" value={note.title} id="title"
                     name="title" required onChange={onChangeInput} />
                 </div>
