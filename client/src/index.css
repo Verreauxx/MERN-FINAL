@@ -1,5 +1,6 @@
 * {
   padding: 0;
+  background-image: url('./images/kitchen.png');
   box-sizing: border-box;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,7 +17,7 @@ code {
 
 body{
   background: rgb(70, 168, 185);
-  background-image: url('./images/cuttingboard.png');
+
 }
 
 .notes-page{
@@ -36,7 +37,7 @@ body{
 }
 a{
   text-decoration: none;
-  color: whitesmoke;
+  color: rgb(17, 16, 16);
 }
 .notes-page header .logo{
   text-transform: uppercase;
@@ -56,7 +57,7 @@ a{
 }
 .notes-page section{
   width: 100%;
-  box-shadow: 0 0 5px rgb(7,25,63);
+  box-shadow: 0 0 5px rgb(215, 219, 226);
   padding: 20px 0;
 }
 .note-wrapper{
