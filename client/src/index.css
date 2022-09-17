@@ -1,6 +1,5 @@
 * {
   padding: 0;
-  background-image: url('./images/kitchen.png');
   box-sizing: border-box;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,7 +16,7 @@ code {
 
 body{
   background: rgb(70, 168, 185);
-
+  background-image: url('./images/kitchen.png');
 }
 
 .notes-page{
@@ -181,7 +180,7 @@ a{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgb(63,9,63);
+  background: rgb(14, 118, 136);
 }
 .login-page h2,
 .login-page h3{
