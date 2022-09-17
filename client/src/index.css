@@ -69,8 +69,8 @@ a{
 }
 .card{
   width: 300px;
-  box-shadow: 0 0 5px rgb(22, 173, 67);
-  background: rgb(236, 221, 81);
+  box-shadow: 0 0 5px rgb(13, 14, 13);
+  background: rgb(240, 239, 236);
   padding: 10px;
   position: relative;
   color: #ddd;
