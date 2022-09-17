@@ -72,7 +72,7 @@ a{
   background: rgb(233, 235, 126);
   padding: 10px;
   position: relative;
-  color: #ddd;
+  color: rgb(0, 0, 0);
   margin: 15px;
   cursor: pointer;
 }
@@ -101,7 +101,7 @@ a{
   -webkit-line-clamp: 7;
   overflow: hidden;
   margin: 10px 0;
-  color: #fff9;
+  color: rgba(23, 10, 82, 0.6);
 }
 .card .date{
   text-align: right;
