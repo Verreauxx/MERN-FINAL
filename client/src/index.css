@@ -16,7 +16,7 @@ code {
 
 body{
   background: rgb(70, 168, 185);
-  background-image: url('./images/kitchen.png');
+
 }
 
 .notes-page{
@@ -85,7 +85,7 @@ a{
   background: transparent;
   border: none;
   outline: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .card h4{
   margin-right: 10px;
@@ -105,7 +105,7 @@ a{
 }
 .card .date{
   text-align: right;
-  color: wheat;
+  color: rgb(7, 7, 7);
 }
 .card-footer{
   display: flex;
@@ -155,7 +155,7 @@ a{
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 2px;
-  color: rgb(7,25,63);
+  color: rgb(7, 7, 7);
 }
 @media (max-width: 500px){
   .create-note{
