@@ -1,5 +1,4 @@
 * {
-  background-image: './images/cuttingboard.png';
   padding: 0;
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +16,9 @@ code {
 
 body{
   background: rgb(70, 168, 185);
+  background-image: url('./images/cuttingboard.png');
 }
+
 .notes-page{
   width: 100%;
   min-height: 100vh;
