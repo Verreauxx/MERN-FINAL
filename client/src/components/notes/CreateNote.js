@@ -42,13 +42,13 @@ export default function CreateNote() {
             <h2>Create Note</h2>
             <form onSubmit={createNote} autoComplete="off">
                 <div className="row">
-                    <label htmlFor="title">Title</label>
+                    <label htmlFor="title">Recipe</label>
                     <input type="text" value={note.title} id="title"
                     name="title" required onChange={onChangeInput} />
                 </div>
 
                 <div className="row">
-                    <label htmlFor="content">Content</label>
+                    <label htmlFor="content">List</label>
                     <textarea type="text" value={note.content} id="content"
                     name="content" required rows="10" onChange={onChangeInput} />
                 </div>
